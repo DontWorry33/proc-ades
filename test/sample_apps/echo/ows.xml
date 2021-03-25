@@ -15,8 +15,7 @@
         <link rel="self" type="application/atom+xml" title="Reference link" href="https://raw.githubusercontent.com/DontWorry33/proc-ades/master/test/sample_apps/echo/ows.xml"/>
         <content type="html">Application package a sample App - CWL only</content>
         <owc:offering xmlns:owc="http://www.opengis.net/owc/1.0" code="http://www.opengis.net/eoc/applicationContext/cwl">
-            <owc:content type="application/cwl">
-cwlVersion: v1.0
+            <owc:content type="application/cwl">cwlVersion: v1.0
 class: CommandLineTool
 baseCommand: echo
 inputs:
