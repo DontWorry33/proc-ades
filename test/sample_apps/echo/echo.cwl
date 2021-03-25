@@ -7,7 +7,7 @@ inputs:
 
   corellated_input:
     type:
-      - "null"
+      - 'null'
       - type: array
         items: string
     label: 2 to 10 correlated inputs
@@ -16,7 +16,7 @@ inputs:
     type:
       type: array
       items:
-        - "null"
+        - 'null'
         - type: enum
           symbols: ['test1', 'test2', 'test3']
     label: enum

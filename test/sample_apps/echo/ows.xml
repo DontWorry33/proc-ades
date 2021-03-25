@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <entry>
+        <id>EchoTest1234567890</id>
+        <title type="text">Echo test</title>
+        <summary type="html">Echo test - trial by fire</summary>
+        <published>2020-04-21T15:21:05.912583Z</published>
+        <updated>2020-04-09T07:38:13.493912Z</updated>
+        <author>
+            <name>Terradue (modified by HH)</name>
+        </author>
+        <link rel="self" type="application/atom+xml" title="Reference link" href="https://raw.githubusercontent.com/DontWorry33/proc-ades/master/test/sample_apps/echo/ows.xml"/>
+        <content type="html">Application package a sample App - CWL only</content>
+        <owc:offering xmlns:owc="http://www.opengis.net/owc/1.0" code="http://www.opengis.net/eoc/applicationContext/cwl">
+            <owc:content type="application/cwl">
+cwlVersion: v1.0
+class: CommandLineTool
+inputs:
+  main_input:
+    type: string?
+    label: Main input
+
+  corellated_input:
+    type:
+      - 'null'
+      - type: array
+        items: string
+    label: 2 to 10 correlated inputs
+
+  test_enum:
+    type:
+      type: array
+      items:
+        - 'null'
+        - type: enum
+          symbols: ['test1', 'test2', 'test3']
+    label: enum
+
+  opt_string_array:
+    type: string[]?
+
+baseCommand: echo
+outputs: []
+            </owc:context>
+        </owc:offering>
+
+        <identifier xmlns="http://purl.org/dc/elements/1.1/">echotest</identifier>
+    </entry>
+</feed>
