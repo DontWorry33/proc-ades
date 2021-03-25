@@ -41,7 +41,7 @@ inputs:
 
 baseCommand: echo
 outputs: []
-            </owc:context>
+            </owc:content>
         </owc:offering>
 
         <identifier xmlns="http://purl.org/dc/elements/1.1/">echotest</identifier>
