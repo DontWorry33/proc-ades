@@ -14,7 +14,9 @@ $graph:
       type: string
       inputBinding:
         position: 1
-  outputs: []
+  outputs:
+    echo_out:
+      type: stdout
 - class: Workflow
   id: echo_test_generation 
   label: Echo Test
@@ -25,10 +27,15 @@ $graph:
       doc: string to echo
       label: Echo tTest
       type: string
+  outputs:
+    echo_out:
+      label: Echo output
+      type: stdout
   steps:
     step1:
       in: 
         arg1: message
+      out:
+      - echo_out
       run:
         '#echo_test'
-        
