@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://raw.githubusercontent.com/DontWorry33/proc-ades/master/test/sample_apps/echo/ows.xml</id>
     <title>Echo Test HH</title>
+    <id>https://raw.githubusercontent.com/DontWorry33/proc-ades/master/test/sample_apps/echo/ows.xml</id>
     <updated>2021-03-25T11:54:13.493912Z</updated>
     <link rel="self" type="application/atom+xml" title="Reference link" href="https://raw.githubusercontent.com/DontWorry33/proc-ades/master/test/sample_apps/echo/ows.xml"/>
     <link rel="search" type="application/opensearchdescription+xml" title="OpenSearch Description link" href="https://catalog.terradue.com/eoepca-apps/description"/>
