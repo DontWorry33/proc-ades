@@ -3,14 +3,18 @@
     <id>https://raw.githubusercontent.com/DontWorry33/proc-ades/master/test/sample_apps/echo/ows.xml</id>
     <title>Echo Test HH</title>
     <updated>2021-03-25T11:54:13.493912Z</updated>
+    <link rel="self" type="application/atom+xml" title="Reference link" href="https://raw.githubusercontent.com/DontWorry33/proc-ades/master/test/sample_apps/echo/ows.xml"/>
+    <link rel="search" type="application/opensearchdescription+xml" title="OpenSearch Description link" href="https://catalog.terradue.com/eoepca-apps/description"/>
     <entry>
         <id>EchoTest1234567890</id>
         <title type="text">Echo test</title>
-        <summary type="html">Echo test - trial by fire</summary>
+        <summary type="html">Echo test trial by fire</summary>
         <published>2021-03-25T11:54:05.912583Z</published>
         <updated>2021-03-25T11:54:13.493912Z</updated>
         <author>
             <name>Hussain Hassam</name>
+            <uri>https://test.com</uri>
+            <email>hhassam@hatfieldgroup.com</email>
         </author>
         <link rel="self" type="application/atom+xml" title="Reference link" href="https://raw.githubusercontent.com/DontWorry33/proc-ades/master/test/sample_apps/echo/ows.xml"/>
         <content type="html">Application package a sample App - CWL only</content>

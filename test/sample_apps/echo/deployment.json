@@ -7,7 +7,7 @@
                     "mimeType": "application/xml"
                 },
                 "value": {
-                    "href": "https://raw.githubusercontent.com/DontWorry33/proc-ades/master/test/sample_apps/echo/ows.xml"
+                    "inlineValue": "https://raw.githubusercontent.com/DontWorry33/proc-ades/master/test/sample_apps/echo/ows.xml"
                 }
             }
         }
