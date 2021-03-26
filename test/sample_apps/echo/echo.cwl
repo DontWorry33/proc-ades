@@ -1,4 +1,5 @@
 cwlVersion: v1.0
+$graph:
 - class: CommandLineTool
   baseCommand: echo
   inputs:
@@ -7,12 +8,3 @@ cwlVersion: v1.0
       inputBinding:
         position: 1
   outputs: []
-- class: Workflow
-  id: echo_test
-  label: Echo Test
-  doc: Echo Test
-  inputs:
-    message:
-      type: string
-      doc: "Something to echo..."
-      label: Echo string
