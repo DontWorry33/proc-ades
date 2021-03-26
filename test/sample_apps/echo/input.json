@@ -1,3 +1,15 @@
 {
-    "test_enum": "test3"
+    "inputs": [
+      {
+        "id": "message",
+        "input": {
+          "dataType": {
+            "name": "string"
+          },
+          "value": "please just echo this out...."
+        }
+      }
+    ],
+    "mode": "async",
+    "response": "raw"
 }
